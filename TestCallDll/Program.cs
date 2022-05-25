@@ -9,8 +9,7 @@ namespace TestCallDll
             var inputPath = @"C:\Users\wilson\Desktop\test.dot";
             var outputPath = @"C:\Users\wilson\Desktop\output.png";
 
-            var source = File.ReadAllText(inputPath);
-            var bytes = Graphviz.RenderImage(source, "dot", "png");
+            var bytes = Graphviz.RenderImage(inputPath, "dot", "png");
             File.WriteAllBytes(outputPath, bytes);
         }
     }

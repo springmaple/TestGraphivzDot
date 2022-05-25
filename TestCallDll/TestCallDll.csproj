@@ -46,22 +46,19 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="GraphvizDot\ANN.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
       <Content Include="GraphvizDot\cairo.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="GraphvizDot\cdt.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="GraphvizDot\cgraph++.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
       <Content Include="GraphvizDot\cgraph.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="GraphvizDot\concrt140.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\config6">
+      <Content Include="GraphvizDot\dot.exe">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="GraphvizDot\expat.dll">
@@ -70,16 +67,10 @@
       <Content Include="GraphvizDot\fontconfig.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <Content Include="GraphvizDot\freeglut.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
       <Content Include="GraphvizDot\getopt.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\glib-2.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\gobject-2.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\gvc++.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="GraphvizDot\gvc.dll">
@@ -91,6 +82,9 @@
       <Content Include="GraphvizDot\gvplugin_dot_layout.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <Content Include="GraphvizDot\gvplugin_gd.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
       <Content Include="GraphvizDot\gvplugin_gdiplus.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
@@ -100,22 +94,16 @@
       <Content Include="GraphvizDot\gvplugin_pango.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="GraphvizDot\libharfbuzz-0.dll">
+      <Content Include="GraphvizDot\gvprlib.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="GraphvizDot\msvcp140.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\msvcp140_1.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\msvcp140_2.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\msvcp140_codecvt_ids.dll">
+      <Content Include="GraphvizDot\lab_gamut.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="GraphvizDot\pango-1.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="GraphvizDot\pango2-1.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="GraphvizDot\pangocairo-1.dll">
@@ -127,16 +115,10 @@
       <Content Include="GraphvizDot\pangowin32-1.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <Content Include="GraphvizDot\pathplan.dll">
+      <Content Include="GraphvizDot\Pathplan.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="GraphvizDot\pixman-1.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\vcruntime140.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="GraphvizDot\vcruntime140_1.dll">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
       <Content Include="GraphvizDot\xdot.dll">
